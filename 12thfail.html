@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>12th Fail</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgb(216 220 139);
+    }
+    h1 {
+      text-align: center;
+    }
+    .details {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .images-container {
+      overflow-x: auto;
+      white-space: nowrap;
+      margin-bottom: 20px;
+    }
+    .image {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .image img {
+      max-width: 200px;
+      height: 200px;
+    }
+    .comment-section {
+      margin-top: 50px;
+    }
+    .comment-box {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    .comment-box textarea {
+      width: 100%;
+      height: 100px;
+      resize: none;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .comment-box button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    li{
+        padding-left: 0px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    table{
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+    }
+
+    tr{
+        border-bottom: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>12th Fail</h1>
+    <div class="details">
+      <p>"12th Fail" The real-life story of IPS Officer Manoj Kumar Sharma and IRS Officer Shraddha Joshi. 
+        <table>
+            <tr>
+                <td><b>Director</b></td>
+                <td>Vidhu Vinod Chopra</td>
+            </tr>
+            <tr>
+                <td><b>Writer</b></td>
+                <td><ul style="display:flex;"><li>Vidhu Vinod Chopra</li>
+                    <li>Jaskunwar Kohli</li><li>Anurag Pathak</li></td>
+            </tr>
+            <tr>
+                <td><b>Stars</b></td>
+                <td><ul style="display: flex;"><li>Vikrant Massey</li>
+                    <li>Medha Shankr</li><li>Anant Joshi</li></td>
+            </tr>
+        </table>
+        
+    </div>
+    <div class="images-container">
+      <div class="image"><img src="https://i.ytimg.com/vi/x_ny6nq9AH8/maxresdefault.jpg" alt="Image 1"></div>
+      <div class="image"><img src="https://th.bing.com/th/id/OIP.liEckjwQki385CAyA6YyXgHaEK?rs=1&pid=ImgDetMain" alt="Image 2"></div>
+      <div class="image"><img src="https://th-i.thgim.com/public/entertainment/movies/m3cfg0/article67460755.ece/alternates/LANDSCAPE_1200/Vikrant%20Massey%20in%20'12th%20Fail'.jpg" alt="Image 3"></div>
+      <!-- Add more images as needed -->
+      <div class="image"><img src="https://www.iforher.com/wp-content/uploads/2024/01/12th-Fail-movie-Review.jpg" alt="Image 4"></div>
+      <div class="image"><img src="https://indiaglitz-media.s3.amazonaws.com/telugu/home/12th-fail-review-1.jpg" alt="Image 5"></div>
+      <div class="image"><img src="https://i.ytimg.com/vi/BCbyvzCqrtg/maxresdefault.jpg" alt="Image 6"></div>
+      <!-- Add more images as needed -->
+      <div class="image"><img src="https://i.ytimg.com/vi/x_ny6nq9AH8/maxresdefault.jpg" alt="Image 1"></div>
+      <div class="image"><img src="https://th.bing.com/th/id/OIP.liEckjwQki385CAyA6YyXgHaEK?rs=1&pid=ImgDetMain" alt="Image 2"></div>
+      <div class="image"><img src="https://th-i.thgim.com/public/entertainment/movies/m3cfg0/article67460755.ece/alternates/LANDSCAPE_1200/Vikrant%20Massey%20in%20'12th%20Fail'.jpg" alt="Image 3"></div>
+      <!-- Add more images as needed -->
+      <div class="image"><img src="https://www.iforher.com/wp-content/uploads/2024/01/12th-Fail-movie-Review.jpg" alt="Image 4"></div>
+      <div class="image"><img src="https://indiaglitz-media.s3.amazonaws.com/telugu/home/12th-fail-review-1.jpg" alt="Image 5"></div>
+      <div class="image"><img src="https://i.ytimg.com/vi/BCbyvzCqrtg/maxresdefault.jpg" alt="Image 6"></div>
+      <!-- Add more images as needed -->
+    </div>
+    <div class="horizontal-scroll">
+      <button onclick="scrollImages(-100)">Scroll Left</button>
+      <button onclick="scrollImages(100)">Scroll Right</button>
+    </div>
+    <h2>Synopis/Plot</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facere officia quo aliquam eveniet perferendis itaque! Accusantium rem similique soluta incidunt laborum quos nulla possimus quisquam consequatur atque vero, omnis non nesciunt exercitationem at cupiditate ipsam? Assumenda quas asperiores dolorum porro, vero obcaecati veritatis error.</p>
+    <div class="comment-section">
+      <h2>Comments</h2>
+      <div class="comment-box">
+        <textarea id="txtarea" placeholder="Write your comment here..."></textarea>
+        <button id="comment">Post Comment</button>
+      </div>
+      <!-- Comments will be displayed here -->
+      <!-- <div class="comm-displayer">
+        <p class="comment-para"></p>
+      </div> -->
+    </div>
+  </div>
+  
+  <script>
+    function scrollImages(scrollOffset) {
+      const imagesContainer = document.querySelector('.images-container');
+      imagesContainer.scrollLeft += scrollOffset;
+    }
+    ////////////////////////////////commentHandlers
+    let btn=document.getElementById("comment");
+    btn.addEventListener("click",(e)=>{
+      let comms=document.getElementsByClassName("comment-section")[0];
+      if(comms.lastElementChild.className!=="comm-div"){
+        let divv=document.createElement("div");
+        divv.className="comm-displayer";
+        console.log(divv);
+        comms.appendChild(divv);
+      }
+      let x=document.getElementById("txtarea").value;
+      if(x.length==0){
+        alert("Please Write Something");
+      }
+      else{
+
+        let pp=document.createElement("p");
+        pp.innerHTML=x;
+        pp.className="comment-para";
+        let popa=document.getElementsByClassName("comm-displayer")[0];
+        console.log(popa);
+        popa.appendChild(pp);
+        console.log(pp);
+      }
+    })
+  </script>
+</body>
+</html>
